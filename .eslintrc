@@ -1,0 +1,20 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb"],
+  "plugins": ["prettier"],
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "indent": [2, 2],
+    "max-len": [2, 120],
+    "react/jsx-filename-extension": [0],
+    "react/jsx-indent": [2, 2],
+    "react/jsx-indent-props": [2, 2],
+    "react/prefer-stateless-function": 0,
+    "react/forbid-prop-types": 0
+  }
+}
